@@ -19,7 +19,7 @@ text-shadow:0 2px 0 rgba(0, 0, 0, 0.07);
 
 body
 {
-     background-color: antiquewhite;
+    
     margin:0;
 }
 h1,
@@ -64,8 +64,22 @@ h6
 }
 
 .editor_code{
-    display:grid
+    display:grid;
+    grid-template-columns: auto 1fr;
 }
+.editor_number{
+    display: block;
+    padding: 0 10px;
+}
+.editor_input{
+   resize: none;
+    background: none;
+    border:0;
+    color:grey;
+    font-size:16px;
+    line-height:19px;
+}
+
 /*Pen Header*/
 .pen{
     display: grid;
@@ -106,4 +120,10 @@ h6
     position:absolute;
     left:3px;
     top:3px; */
+}
+
+.settings{
+    padding:5px;
+    background: black;
+    border-top:1px solid grey;
 }
