@@ -1,0 +1,26 @@
+
+first.css
+  [2m11:1[22m   [31m[31m✖[39m  Expected empty line before comment                                 [2mcomment-empty-line-before[22m
+  [2m16:3[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m21:11[22m  [31m[31m✖[39m  Expected "#00ddff" to be "#0df"                                    [2mcolor-hex-length[22m
+  [2m29:18[22m  [31m[31m✖[39m  Unexpected quotes around "Lora"                                    [2mfont-family-name-quotes[22m
+  [2m35:1[22m   [31m[31m✖[39m  Expected selector "h1" to come before selector "header h1"         [2mno-descending-specificity[22m
+  [2m36:18[22m  [31m[31m✖[39m  Unexpected quotes around "Lora"                                    [2mfont-family-name-quotes[22m
+  [2m38:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m42:1[22m   [31m[31m✖[39m  Expected selector "ul" to come before selector "nav ul"            [2mno-descending-specificity[22m
+  [2m42:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m58:1[22m   [31m[31m✖[39m  Expected empty line before comment                                 [2mcomment-empty-line-before[22m
+  [2m67:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m71:1[22m   [31m[31m✖[39m  Unexpected duplicate selector "header h1", first used at line 28   [2mno-duplicate-selectors[22m
+  [2m71:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m75:1[22m   [31m[31m✖[39m  Unexpected duplicate selector ".post-date", first used at line 67  [2mno-duplicate-selectors[22m
+  [2m75:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m78:1[22m   [31m[31m✖[39m  Expected empty line before at-rule                                 [2mat-rule-empty-line-before[22m
+  [2m83:2[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+  [2m95:3[22m   [31m[31m✖[39m  Unexpected empty line before declaration                           [2mdeclaration-empty-line-before[22m
+ [2m102:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+ [2m108:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+ [2m115:1[22m   [31m[31m✖[39m  Expected empty line before rule                                    [2mrule-empty-line-before[22m
+
+21 problems ([31m21 errors[39m, [33m0 warnings[39m)
+
