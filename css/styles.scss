@@ -1,0 +1,82 @@
+$color-primary: #FFCB77;
+$color-secondary: azure;
+$color-text: #000408;
+$color-background: #030303;
+$color-border: rgb(78, 76, 76);
+
+@mixin link {
+  color: $color-text;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  padding-top: 50px;
+  font-size: 1.2em;
+  color: $color-primary;
+  font-weight: 900;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
+header {
+  margin: 10px;
+  background-color: $color-background;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 3px 3px 5px #FEF9EF;
+}
+
+main {
+  margin: 0 100px;
+  text-align: center;
+}
+
+p {
+  border-top: 1px solid $color-border;
+  font-style: italic;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  text-align: left;
+}
+
+.list {
+  a {
+    @include link;
+  }
+}
+
+li {
+  text-align: left;
+}
+
+footer {
+  margin: 10px;
+  color: $color-primary;
+  background-color: $color-background;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 3px 3px 5px #FEF9EF;
+}
+
+[href^="email:"] {
+  background: #2196f3 url(../../images/email.svg) 10px center / 20px auto no-repeat;
+  border-radius: 100px;
+  padding: .5em 1em .5em 2em;
+  @include link;
+}
