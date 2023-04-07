@@ -56,7 +56,9 @@ ul {
 
 .list {
   a {
+    
     @include link;
+   
   }
 }
 

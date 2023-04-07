@@ -25,6 +25,21 @@ main {
   color: rgb(32, 28, 1);
 }
 
+#links li a{
+    padding-right:10px;
+    text-decoration: none; 
+    color: #000000;
+    
+}
+#links li a:hover{
+    padding-right:20px;
+    text-decoration: none; 
+    color: #ec970e;
+    
+}
+#links li a:active {
+    color: blue;
+  }
 header {
   margin: 10px;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #ec970e);
@@ -170,6 +185,8 @@ footer {
   text-align: center;
   box-shadow: 3px 3px 5px #fef9ef;
 }
+
+
 
 /*buttons*/
 .social-menu ul {
